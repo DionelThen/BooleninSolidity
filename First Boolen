@@ -1,0 +1,14 @@
+pragma solidity ^0.5.13
+
+contract WorkinginVariables  {  
+  uint256 public myUint;
+
+  function setMyUint(unit _myUint) public {
+myUint = _myUint;
+}
+
+  bool public myBool;
+
+  function set myBool(bool_myBool) public {
+      myBool = bool_myBool;
+  }
